@@ -6,7 +6,7 @@ import pickle
 # Load model
 model = pickle.load(open("digit_model.pkl", "rb"))
 
-st.title("🧠 Handwritten Digit Recognition (No TensorFlow)")
+st.title("Handwritten Digit Recognition ")
 
 uploaded_file = st.file_uploader("Upload a digit image (28x28 or bigger)", type=["png", "jpg", "jpeg"])
 
